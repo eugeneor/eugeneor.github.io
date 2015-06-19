@@ -8,6 +8,7 @@ h1, h2, h3, h4, h5, h6, p {
 header {
   background-color: #327CCB;
   border-top: solid 12px #1E70C6;
+  border-bottom: solid 12px #f1f1f1;
   padding: 24px 0;
   text-align: center;
 }
@@ -23,14 +24,6 @@ header img {
   left: 3px;
   top: 3px;
 }
-header .profile {
-  background-color: #fff;
-  border-radius: 50%;
-  width: 131px;
-  height: 131px;
-  margin: 0 auto;
-  position: relative;
-}
 header h1,
 header h2,
 header h3,
@@ -40,9 +33,17 @@ header p {
   color: #fff;
 }
 
+.profile {
+  background-color: #fff;
+  border-radius: 50%;
+  width: 131px;
+  height: 131px;
+  margin: 0 auto;
+  position: relative;
+}
+
 .sub-header {
   padding: 24px 0;
-  border-top: solid 12px #f1f1f1;
 }
 
 .has-line {
