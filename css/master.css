@@ -1,0 +1,98 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+
+h1, h2, h3, h4, h5, h6, p {
+  font-family: 'Lato', 'Helvetica Neue', "Helvetica", sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: #228CDB;
+  padding: 24px 0;
+  text-align: center;
+}
+header a {
+  color: #fff;
+  text-decoration: underline;
+}
+header a:hover {
+  color: #fff;
+}
+header img {
+  position: absolute;
+  left: 3px;
+  top: 3px;
+}
+header .profile {
+  background-color: #fff;
+  border-radius: 50%;
+  width: 131px;
+  height: 131px;
+  margin: 0 auto;
+  position: relative;
+}
+header h1,
+header h2,
+header h3,
+header h4,
+header h5,
+header p {
+  color: #fff;
+}
+
+.has-line {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 24px 0;
+}
+.has-line:before {
+  border-top: 1px dotted #d1d1d1;
+  content: "";
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.has-line span {
+  background: #fff;
+  padding: 0 20px;
+}
+
+.projects {
+  border: solid 12px #f1f1f1;
+}
+
+.project {
+  margin-bottom: 24px;
+}
+.project .description {
+  margin-bottom: 12px;
+}
+.project .date {
+  color: #999;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 24px;
+}
+footer a {
+  font-size: 2.4rem;
+  margin-right: 1rem;
+}
+
+.project-page .projects {
+  padding-top: 24px;
+}
+.project-page .projects h3 {
+  margin-top: 24px;
+}
+.project-page .projects h3:first-child {
+  margin-top: 0;
+}
+.project-page .projects img {
+  margin-bottom: 24px;
+}
