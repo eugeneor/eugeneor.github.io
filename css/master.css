@@ -6,7 +6,8 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 header {
-  background-color: #228CDB;
+  background-color: #327CCB;
+  border-top: solid 12px #1E70C6;
   padding: 24px 0;
   text-align: center;
 }
@@ -37,6 +38,11 @@ header h4,
 header h5,
 header p {
   color: #fff;
+}
+
+.sub-header {
+  padding: 24px 0;
+  border-top: solid 12px #f1f1f1;
 }
 
 .has-line {
@@ -95,4 +101,26 @@ footer a {
 }
 .project-page .projects img {
   margin-bottom: 24px;
+}
+
+.outer {
+  background-color: #D8D8D8;
+  border-radius: 4px;
+  padding: 5px 10px 10px 10px;
+}
+.circle-container {
+  margin: 0 0 5px 10px;
+}
+.circle {
+  display: inline-block;
+  border-radius: 50%;
+  width: 7px;
+  height: 7px;
+  background-color: #7F7E7D;
+  margin-right: 2px;
+}
+.inner {
+  background-color: #fff;
+  height: 200px;
+  width: auto;
 }
