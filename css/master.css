@@ -103,6 +103,9 @@ footer a {
 .project-page .projects img {
   margin-bottom: 24px;
 }
+.project-page .projects p {
+  margin-bottom: 12px;
+}
 
 .outer {
   background-color: #D8D8D8;
