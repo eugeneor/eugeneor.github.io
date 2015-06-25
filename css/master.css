@@ -49,7 +49,7 @@ header p {
   position: relative;
   z-index: 1;
   text-align: center;
-  padding-bottom: 24px;
+  margin-bottom: 24px;
 }
 .has-line:before {
   border-top: 1px dotted #d1d1d1;
