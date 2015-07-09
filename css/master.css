@@ -8,7 +8,7 @@ h1, h2, h3, h4, h5, h6, p {
 header {
   background-color: #327CCB;
   border-top: solid 12px #1E70C6;
-  padding: 24px 0;
+  padding: 36px 0;
   text-align: center;
 }
 header a {
@@ -42,14 +42,14 @@ header p {
 }
 
 .sub-header {
-  padding: 24px 0;
+  padding: 36px 0;
 }
 
 .has-line {
   position: relative;
   z-index: 1;
   text-align: center;
-  margin-bottom: 24px;
+  margin-bottom: 36px;
 }
 .has-line:before {
   border-top: 1px dotted #d1d1d1;
@@ -70,11 +70,15 @@ header p {
 .project {
   margin-bottom: 24px;
 }
+.project h4 {
+  margin-bottom: 6px;
+}
 .project .description {
   margin-bottom: 12px;
 }
 .project .date {
   color: #999;
+  margin-bottom: 6px;
 }
 
 footer {
@@ -87,12 +91,12 @@ footer a {
 }
 
 .project-page .projects {
-  padding-top: 24px;
+  padding-top: 36px;
 }
-.project-page .projects h3 {
-  margin-top: 24px;
+.project-page .projects h4 {
+  margin: 24px 0 12px 0;
 }
-.project-page .projects h3:first-child {
+.project-page .projects h4:first-child {
   margin-top: 0;
 }
 .project-page .projects img {
