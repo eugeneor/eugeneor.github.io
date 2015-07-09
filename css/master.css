@@ -30,6 +30,11 @@ header h4,
 header h5,
 header p {
   color: #fff;
+  margin-bottom: 6px;
+}
+
+header h4 {
+  margin-bottom: 0;
 }
 
 .profile {
