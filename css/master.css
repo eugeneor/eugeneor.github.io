@@ -110,6 +110,12 @@ footer a {
 .project-page .projects p {
   margin-bottom: 12px;
 }
+.project-page.iris header {
+  background: #327CCB url("../img/iris-splash.jpg");
+  background-size: cover;
+  background-position: center;
+  width: auto;
+}
 
 .outer {
   background-color: #D8D8D8;
