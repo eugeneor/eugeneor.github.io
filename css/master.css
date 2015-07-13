@@ -110,8 +110,15 @@ footer a {
 .project-page .projects p {
   margin-bottom: 12px;
 }
+
 .project-page.iris header {
   background: #327CCB url("../img/iris-splash.jpg");
+  background-size: cover;
+  background-position: center;
+  width: auto;
+}
+.project-page.onboarding header {
+  background: #327CCB url("../img/onboarding-splash.jpg");
   background-size: cover;
   background-position: center;
   width: auto;
