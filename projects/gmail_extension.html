@@ -1,0 +1,63 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eugene Or | Portfolio - Clio for Gmail Chrome Extension</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/foundation.css" />
+    <link rel="stylesheet" href="../css/master.css" />
+
+    <script src="js/vendor/modernizr.js"></script>
+  </head>
+  <body class="project-page">
+    
+    <header>
+      <div class="row">
+        <div class="large-12 columns">
+          <div class="profile">
+            <img src="../img/profile.png" width="125" height="125">
+          </div>
+          <h1>Clio for Gmail Chrome Extension</h1>
+          <p class="date">October 2013 &#8211; January 2014 @ <a href="http://www.clio.com" target="_blank" title="Clio">Clio</a></p>
+        </div>
+      </div>
+    </header>
+    
+    <div class="projects">
+      <div class="row">
+        <div class="large-6 columns">
+          <h4>Overview</h4>
+          <p>As a Clio customer, wouldn’t it be nice if they could start a timer, create tasks, or file emails with attachments to matters directly from their Gmail inbox? This was a skunkworks project, between myself and another UX designer. We worked together with the team at <a href="http://www.gunify.com/" target="_blank" title="gUnify">gUnify</a> to deliver the UX and designs for the <a href="https://chrome.google.com/webstore/detail/clio-for-gmail-chrome-ext/gpfaomplkkddbjpllmplncjofnfhbpfe" target="_blank">Clio for Gmail Chrome Extension</a>. Using Clio’s API, the customer would be able to fetch data from their matters directly in Gmail.</p>
+          <h4>Challenges</h4>
+          <p>From a design standpoint, I faced challenges communicating the flow and details in my mock ups to gUnify’s engineering team. Being in opposite time zones didn’t help either. Even though I was very precise in explaining proper margins, padding, and line heights of each element, details were lost during each iteration. Sometimes a phone call was easier than waiting for an email reply.</p>
+          <p>We wanted to make the process seamless for customers by providing the information at their fingertips. Because of this, we faced many performance challenges relating to recent matters and forwarding file attachments. To alleviate this, we provided a link to load their recent matters rather than automatically loading this information for them. We couldn’t automatically detect attachments in the emails so they needed to be downloaded in the background before they they could be forwarded to Clio. We gave them options to select which files they wanted before filing them to the Clio matter. We also had technical challenges determining how the timer would sync time entries. For example, if the timer was stopped in Gmail, could it be resumed like how it is in Clio? To avoid complexity, we decided that best solution would be to create new time entries each time the timer was stopped.</p>
+        </div>
+        <div class="large-6 columns">
+          <img src="../img/projects/gmail-extension-1.png" width="auto">
+          <img src="../img/projects/gmail-extension-2.png" width="auto">
+          <img src="../img/projects/gmail-extension-3.png" width="auto">
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="row">
+        <div class="large-12 columns">
+          <h2 class="has-line"><span>Come Find Me</span></h2>
+          <a href="https://dribbble.com/eugeneor" target="_blank"><i class="fa fa-dribbble"></i></a>
+          <a href="https://github.com/eugeneor" target="_blank"><i class="fa fa-github"></i></a>
+          <a href="https://ca.linkedin.com/in/eugeneor" target="_blank"><i class="fa fa-linkedin"></i></a>
+          <a href="https://twitter.com/eugeneor83" target="_blank"><i class="fa fa-twitter"></i></a>
+          <p>&copy; Eugene Or 2015</p>
+        </div>
+      </div>
+    </footer>
+    
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
