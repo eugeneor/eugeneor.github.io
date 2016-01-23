@@ -5,6 +5,10 @@ h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
 
+a {
+  color: #327CCB;
+}
+
 header {
   background-color: #327CCB;
   border-top: solid 12px #1E70C6;
