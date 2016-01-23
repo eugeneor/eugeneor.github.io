@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(http://fonts.googleapis.com/css?family=Lato);
 
 h1, h2, h3, h4, h5, h6, p {
   font-family: 'Lato', 'Helvetica Neue', "Helvetica", sans-serif;
@@ -8,7 +8,7 @@ h1, h2, h3, h4, h5, h6, p {
 header {
   background-color: #327CCB;
   border-top: solid 12px #1E70C6;
-  padding: 36px 0;
+  padding: 48px 0;
   text-align: center;
 }
 header a {
@@ -47,14 +47,14 @@ header h4 {
 }
 
 .sub-header {
-  padding: 36px 0;
+  padding: 48px 0;
 }
 
 .has-line {
   position: relative;
   z-index: 1;
   text-align: center;
-  margin-bottom: 36px;
+  margin-bottom: 48px;
 }
 .has-line:before {
   border-top: 1px dotted #d1d1d1;
@@ -79,7 +79,7 @@ header h4 {
   margin-bottom: 6px;
 }
 .project .description {
-  margin-bottom: 12px;
+  margin-bottom: 24px;
 }
 .project .date {
   color: #999;
@@ -88,15 +88,19 @@ header h4 {
 
 footer {
   text-align: center;
-  margin-bottom: 24px;
+  margin-bottom: 48px;
 }
 footer a {
   font-size: 2.4rem;
   margin-right: 1rem;
 }
 
+.projects {
+  margin-bottom: 48px;
+}
+
 .project-page .projects {
-  padding-top: 36px;
+  padding-top: 48px;
 }
 .project-page .projects h4 {
   margin: 24px 0 12px 0;
@@ -108,7 +112,7 @@ footer a {
   margin-bottom: 24px;
 }
 .project-page .projects p {
-  margin-bottom: 12px;
+  margin-bottom: 24px;
 }
 
 .project-page.iris header {
