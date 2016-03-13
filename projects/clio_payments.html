@@ -29,12 +29,14 @@
       <div class="row">
         <div class="large-6 columns">
           <h4>Overview</h4>
-          <p>Based on feedback, interviews, churn reports, we knew that some customers found our billing system "too complex" and "more difficult than it needed to be". We knew we wanted to add a credit card processing system, but before doing so, we needed to streamline our current payment interface.</p>
+          <p>Based on feedback, interviews, and churn reports, we knew that some customers found our billing system "too complex" and "more difficult than it needed to be". Before adding a credit card processing system, we needed to streamline our current payment interface.</p>
           <h4>Challenges</h4>
           <p>My team and I faced a great deal of complications building this feature. Not only were we building in parallel with a third party applcation, we were also awaiting for their API to be finished while built Clio Payments at the same time.</p>
-          <p>Besides the technical challenges, we also needed to improve the usability by simplifying the payment interface. The current UI was not scalable and offered more headaches down the road than benefit.</p>
+          <p>Besides the technical challenges, we also needed to improve the usability by simplifying the payment interface. The current UI was not scalable and would cause more headaches down the road if we didn't address it.</p>
+          <p>In order to streamline the UI, we looked into how many customers actually had multi-source and multi-destination payment accounts set up within Clio. It ended up being a very small percentage of customers.</p>
           <p>I mocked numerous iterations and tested vigorously (internally and externally) to determine if the solution we had in place was feasible for the majourity of our customers.</p>
-          <p>We interviewed a large pool of customers based on a set of criteria to test the updated interface and found that the solution we had was solid enough to proceed further. We would later integrate Clio Payments into this streamlined payment flow.</p>
+          <p>We conducted interviews with a large pool of customers who had multi-source and multi-destination accounts to test the updated interface and found that the solution we had would not cause any issues for their workflows.</p>
+          <p>Clio Payments would then be added on top of this streamlined payment flow.</p>
           <h4>Tech Stack</h4>
           <ul>
             <li>Angular.js</li>
