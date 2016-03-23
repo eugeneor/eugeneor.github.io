@@ -2,6 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,600);
 
 h1, h2, h3, h4, h5, h6, p {
+  /* font family may be overwritten by TypeKit font choices */
   margin: 0;
   color: #383838;
 }
@@ -155,27 +156,5 @@ footer a {
   background: #2E4051 url("../img/clio-payments-splash.jpg");
   background-size: cover;
   background-position: center;
-  width: auto;
-}
-
-.outer {
-  background-color: #D8D8D8;
-  border-radius: 4px;
-  padding: 5px 10px 10px 10px;
-}
-.circle-container {
-  margin: 0 0 5px 10px;
-}
-.circle {
-  display: inline-block;
-  border-radius: 50%;
-  width: 7px;
-  height: 7px;
-  background-color: #7F7E7D;
-  margin-right: 2px;
-}
-.inner {
-  background-color: #fff;
-  height: 200px;
   width: auto;
 }
