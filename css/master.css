@@ -3,12 +3,10 @@
 
 h1, h2, h3, h4, h5, h6, p {
   /* font family may be overwritten by TypeKit font choices */
-  margin: 0;
-  color: #383838;
-}
-h1, h2, h3, h4, h5, h6, p {
   font-family: 'Open Sans', 'Helvetica Neue', "Helvetica", sans-serif;
   font-weight: 400;
+  margin: 0;
+  color: #383838;
 }
 p {
   font-family: 'Lato', 'Helvetica Neue', "Helvetica", sans-serif;
@@ -51,7 +49,6 @@ header p {
   color: #fff;
   margin-bottom: 6px;
 }
-
 header h4 {
   margin-bottom: 0;
 }
@@ -67,6 +64,10 @@ header h4 {
 
 .sub-header {
   padding: 60px 0;
+  text-align: center;
+}
+
+.centered-text {
   text-align: center;
 }
 
@@ -128,9 +129,9 @@ footer a {
   padding-top: 48px;
 }
 .project-page .projects h4 {
-  margin: 24px 0 12px 0;
+  margin: 24px 0 24px 0;
 }
-.project-page .projects h4:first-child {
+.project-page .projects h3:first-child {
   margin-top: 0;
 }
 .project-page .projects img {
