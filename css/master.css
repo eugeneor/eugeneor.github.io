@@ -141,6 +141,12 @@ footer a {
   margin-bottom: 24px;
 }
 
+.project-page.discuss header {
+  background: #2E4051 url("../img/discuss-splash.jpg");
+  background-size: cover;
+  background-position: center;
+  width: auto;
+}
 .project-page.iris header {
   background: #2E4051 url("../img/iris-splash.jpg");
   background-size: cover;
