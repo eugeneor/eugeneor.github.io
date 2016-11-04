@@ -76,21 +76,8 @@ header h4 {
   z-index: 1;
   text-align: center;
   margin-bottom: 48px;
-}
-.has-line:before {
-  border-top: 1px dotted #d1d1d1;
-  content: "";
-  margin: 0 auto;
-  position: absolute;
-  top: 50%;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: -1;
-}
-.has-line span {
-  background: #fff;
-  padding: 0 20px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #f3f3f3;
 }
 
 .project {
