@@ -1,6 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Lato);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
 
+/* Vertical rhythm 6px */
+
 h1, h2, h3, h4, h5, h6, p {
   /* font family may be overwritten by TypeKit font choices */
   font-family: 'Open Sans', 'Helvetica Neue', "Helvetica", sans-serif;
@@ -49,7 +51,11 @@ header p {
   color: #fff;
   margin-bottom: 6px;
 }
-header h4 {
+header h3 {
+  margin-bottom: 24px;
+}
+header h5 {
+  font-weight: normal;
   margin-bottom: 0;
 }
 
@@ -104,7 +110,7 @@ footer a {
 }
 
 .projects {
-  margin-bottom: 48px;
+  margin: 48px 0;
 }
 .projects .project-nav a:nth-child(2) {
   margin-left: 10px;
