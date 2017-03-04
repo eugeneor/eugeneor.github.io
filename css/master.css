@@ -13,16 +13,11 @@ h1, h2, h3, h4, h5, h6, p {
 p {
   font-family: 'Lato', 'Helvetica Neue', "Helvetica", sans-serif;
 }
-
 a {
   color: #327CCB;
 }
 a:hover {
   color: #2567AD;
-}
-
-hr {
-  margin: 24px 0;
 }
 
 header {
@@ -83,7 +78,7 @@ header h5 {
   text-align: center;
   margin-bottom: 48px;
   padding-bottom: 24px;
-  border-bottom: 1px solid #f3f3f3;
+  border-bottom: 1px solid #ddd;
 }
 
 .project {
@@ -112,6 +107,9 @@ footer a {
 .projects {
   margin: 48px 0;
 }
+.projects .project-nav {
+  margin-top: 24px
+}
 .projects .project-nav a:nth-child(2) {
   margin-left: 10px;
   padding-left: 10px;
@@ -133,7 +131,6 @@ footer a {
 .project-page .projects p {
   margin-bottom: 24px;
 }
-
 .project-page.discuss header {
   background: #2E4051 url("../img/discuss-splash.jpg");
   background-size: cover;
