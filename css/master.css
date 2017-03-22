@@ -103,6 +103,9 @@ footer a {
   font-size: 2.4rem;
   margin-right: 1rem;
 }
+footer p:last-child {
+  margin-top: 16px;
+}
 
 .projects {
   margin: 48px 0;
